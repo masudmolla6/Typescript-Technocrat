@@ -30,4 +30,4 @@ let rolls:number[]=[1,2,4,6];
 // tuple->array->order->type of values
 let coordinate:[number, number]=[1,5];
 
-let ageNumber:[number, string]=[27, "Masud"];
+let ageNumber:[number, string, boolean]=[27, "Masud", true];
