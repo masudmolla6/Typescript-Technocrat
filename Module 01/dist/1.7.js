@@ -17,6 +17,6 @@
         friends.forEach((friend) => console.log(friend));
     };
     myFriends("Masud", "Kraim", "Rahim", "Rahul");
-    console.log(myFriends);
+    // console.log(myFriends);
 }
 export {};
