@@ -11,7 +11,7 @@ const searching=(value:string | null)=>{
 
 searching(null);
 
-// unknow type
+// unknown type
 
 const getSpeedMeterPerSecound=(value:unknown)=>{
     if(typeof(value)=="number"){
@@ -34,7 +34,7 @@ getSpeedMeterPerSecound("120 km-1");
 
 
 
-const throwError=(msg:string)=>{
+const throwError=(msg:string):never=>{
     throw new Error(msg);
 }
 
