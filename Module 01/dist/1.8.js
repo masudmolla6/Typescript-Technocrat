@@ -10,7 +10,7 @@
         dept: "CSE",
     };
     const { id, name: { firstName }, } = myInfo;
-    //   Array Destructuring
+    //   Array Destructuring;
     const numbers = [1, 2, 34, 5, 7];
     const [, a, ...rest] = numbers;
     console.log(rest);
