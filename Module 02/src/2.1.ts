@@ -20,9 +20,9 @@
     }
 
     try {
-        
+        throw new Error("Something went wrong!");
     } catch (error) {
-        console.log((error as CustomeError).message;)
+        console.log((error as CustomeError).message);
     }
 
 
