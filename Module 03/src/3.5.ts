@@ -18,23 +18,18 @@
         }
 
         public getBalance(){
-            console.log(this._balance);
+            return this._balance;
         }
 
     }
 
-    class StudentAccount extends BankAccount {
-      constructor(id: number, name: string, _balance: number) {
-        super(id,name,_balance);
-      }
-      test(){
-        this.
-      }
-    }
+
 
     const goridManuserAccount=new BankAccount(456,"Masud", 456, );
     goridManuserAccount.addAmount(500);
-    goridManuserAccount.addAmount(504500);
+    
+    const myBalance=goridManuserAccount.getBalance();
+    console.log(myBalance);
 
 
 
